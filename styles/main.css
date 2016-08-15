@@ -1,0 +1,120 @@
+/* Layout */
+body {
+    background-color: darkgray;
+}
+.wrapper,
+.gallery {
+	margin: auto;
+}
+
+.gallery {
+	width: 980px;
+	padding-top: 80px;
+}
+
+
+/* Search box */
+
+header {
+	text-align: center;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: gray;
+}
+
+header form input {
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	width: 460px;
+	height: 30px;
+}
+
+[placeholder] {
+	text-align: left;
+	font-size: 16pt;
+	font-weight: 200;
+	font-family: "Source Code Pro";
+}
+
+/* Images */
+
+.gallery a {
+	text-decoration: none;
+}
+
+.gallery a img {
+	height: 200px;
+	width: 200px;
+	padding: 15px;
+	margin: 0;
+}
+
+.gallery figcaption {
+	font-family: "Source Code Pro";
+	display: none;
+}
+
+/* Lightbox */
+
+.lightboxOverlay {
+	background-color: #2f2e2e;
+	opacity:.85;
+}
+
+.lb-nav a.lb-prev, .lb-nav a.lb-next {
+	opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.lb-nav a.lb-prev {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.lb-data .lb-close {
+	display: none;
+}
+
+.lb-data .lb-caption {
+	font-family: "Source Code Pro";
+	display: block;
+	padding-top: 50px;
+	margin: auto;
+	line-height: 1.5em;
+	font-weight: 400;
+}
+
+.lb-data .lb-number {
+	opacity: 0;
+}
+
+.lightbox .lb-image {
+	width: 600px;
+	border: none;
+	border-radius: 0;
+}
+
+.lb-outerContainer {
+	width: 600px;
+	border-radius: 0;
+}
+
+/* Searchbox */
+
+.list li {
+	text-decoration: none;
+	display: inline;
+}
+
+.list li a p {
+	display : none;
+}
